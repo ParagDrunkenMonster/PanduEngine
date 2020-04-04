@@ -1,0 +1,56 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{A5A12CF0-3DC8-4AFA-805B-49094EDCEA15}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "External", "External", "{1CF487F0-B0AF-44F0-8906-D0CFCB9BCB0C}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Pandu", "Pandu\Pandu.vcxproj", "{130F2B68-78A8-450C-BDAA-E3601BD8795F}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Game", "Game\Game.vcxproj", "{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ColadaToPandu", "Tools\ColadaToPandu\ColadaToPandu.vcxproj", "{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TinyXML", "External\TinyXML\TinyXML.vcxproj", "{1625CFFF-04BB-43AE-9895-33ADA0F34B33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Final|Win32 = Final|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Debug|Win32.Build.0 = Debug|Win32
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Final|Win32.ActiveCfg = Final|Win32
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Final|Win32.Build.0 = Final|Win32
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Release|Win32.ActiveCfg = Release|Win32
+		{130F2B68-78A8-450C-BDAA-E3601BD8795F}.Release|Win32.Build.0 = Release|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Debug|Win32.Build.0 = Debug|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Final|Win32.ActiveCfg = Final|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Final|Win32.Build.0 = Final|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Release|Win32.ActiveCfg = Release|Win32
+		{CBD3D540-B13C-4810-8EA9-888F6FD80AE1}.Release|Win32.Build.0 = Release|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Debug|Win32.Build.0 = Debug|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Final|Win32.ActiveCfg = Final|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Final|Win32.Build.0 = Final|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Release|Win32.ActiveCfg = Release|Win32
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A}.Release|Win32.Build.0 = Release|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Debug|Win32.Build.0 = Debug|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Final|Win32.ActiveCfg = Final|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Final|Win32.Build.0 = Final|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Release|Win32.ActiveCfg = Release|Win32
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3556FF4A-8E7E-46BA-9F69-A62DA6ABFF7A} = {A5A12CF0-3DC8-4AFA-805B-49094EDCEA15}
+		{1625CFFF-04BB-43AE-9895-33ADA0F34B33} = {1CF487F0-B0AF-44F0-8906-D0CFCB9BCB0C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,6 @@
+/bin
+/External/bin
+/Tools/bin
+/**/*.html
+/**/*.htm
+/boost_1_65_1/boost_1_65_1/**/doc/

@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>parag.boro</author>
+      <authoring_tool>OpenCOLLADA2011</authoring_tool>
+      <comments>
+			ColladaMaya export options: 
+			bakeTransforms=0;relativePaths=0;copyTextures=0;exportTriangles=1;exportCgfxFileReferences=0;
+			isSampling=0;curveConstrainSampling=0;removeStaticCurves=1;exportPolygonMeshes=1;exportLights=0;
+			exportCameras=0;exportJointsAndSkin=0;exportAnimations=0;exportInvisibleNodes=0;exportDefaultCameras=0;
+			exportTexCoords=1;exportNormals=1;exportNormalsPerVertex=1;exportVertexColors=0;exportVertexColorsPerVertex=0;
+			exportTexTangents=0;exportTangents=1;exportReferencedMaterials=0;exportMaterialsOnly=0;
+			exportXRefs=0;dereferenceXRefs=0;exportCameraAsLookat=0;cameraXFov=0;cameraYFov=1;doublePrecision=0
+		</comments>
+      <source_data>file:///C:/Users/parag.boro/Desktop/Models/City.mb</source_data>
+    </contributor>
+    <created>2012-04-17T01:09:53</created>
+    <modified>2012-04-17T01:09:53</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_materials>
+    <material id="lambert2" name="lambert2">
+      <instance_effect url="#lambert2-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="lambert2-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="OpenCOLLADAMaya">
+                    <blend_mode>NONE</blend_mode>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <fast>0</fast>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <rotateFrame>0</rotateFrame>
+                    <rotateUV>0</rotateUV>
+                    <stagger>0</stagger>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_images>
+    <image id="file1" name="file1">
+      <init_from>file:///C:/Users/parag.boro/Desktop/Models/ConcreteWall_NRM.bmp</init_from>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+          <originalMayaNodeId>file1</originalMayaNodeId>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_geometries>
+    <geometry id="CityShape" name="CityShape">
+      <mesh>
+        <source id="CityShape-positions" name="CityShape-positions">
+          <float_array id="CityShape-positions-array" count="96">-70.56367 -0.002403 69.54619 -20.56367 -0.002403 69.54619 -70.56367 36.64826 69.54619 -20.56367 36.64826 69.54619 -70.56367 36.64826 19.54618 -20.56367 36.64826 19.54618 -70.56367 -0.002403 19.54618 -20.56367 -0.002403 19.54618 -70.56367 -0.002403 -20.23093 -20.56367 -0.002403 -20.23093 -70.56367 36.64826 -20.23093 -20.56367 36.64826 -20.23093 -70.56367 36.64826 -70.23093 -20.56367 36.64826 -70.23093 -70.56367 -0.002403 -70.23093 -20.56367 -0.002403 -70.23093 19.78894 -0.002403 -20.23093 69.78894 -0.002403 -20.23093 19.78894 36.64826 -20.23093 69.78894 36.64826 -20.23093 19.78894 36.64826 -70.23093 69.78894 36.64826 -70.23093 19.78894 -0.002403 -70.23093 69.78894 -0.002403 -70.23093 19.78894 -0.002403 69.54619 69.78894 -0.002404907 69.54619 19.78894 36.64826 69.54619 69.78894 36.64826 69.54619 19.78894 36.64826 19.54618 69.78894 36.64826 19.54618 19.78894 -0.002403 19.54618 69.78894 -0.002403 19.54618</float_array>
+          <technique_common>
+            <accessor source="#CityShape-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CityShape-normals" name="CityShape-normals">
+          <float_array id="CityShape-normals-array" count="360">0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0</float_array>
+          <technique_common>
+            <accessor source="#CityShape-normals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CityShape-tangents" name="CityShape-tangents">
+          <float_array id="CityShape-tangents-array" count="360">1 0 0 0 1 0 -0.5911958 -0.806528 0 0 -1 0 0.5911958 0.806528 0 -1 0 0 0.9999999 0 0 0 0 -1 -0.7071068 0 0.7071068 0 0 1 0.7071068 0 -0.7071068 -0.9999999 0 0 1 0 0 0 -1 0 -0.5911958 0.806528 0 0 1 0 0.5911958 -0.806528 0 -1 0 0 0 0 -1 0 0.9999999 0 0 -0.8065281 0.5911958 0 -0.9999999 0 0 0.8065281 -0.5911958 0 0 1 0 0 1 0 0.9999999 0 0 -0.8065281 -0.5911958 0 -0.9999999 0 0 0.8065281 0.5911958 0 0 -1 1 0 0 0 1 0 -0.5911958 -0.806528 0 0 -1 0 0.5911958 0.806528 0 -1 0 0 1 0 0 0 0 -1 -0.7071068 0 0.7071068 0 0 1 0.7071068 0 -0.7071068 -1 0 0 1 0 0 0 -1 0 -0.5911958 0.806528 0 0 1 0 0.5911958 -0.806528 0 -1 0 0 0 0 -1 0 1 0 0 -0.806528 0.5911958 0 -1 0 0 0.806528 -0.5911958 0 0 1 0 0 1 0 1 0 0 -0.806528 -0.5911958 0 -1 0 0 0.806528 0.5911958 0 0 -1 1 0 0 0 1 0 -0.5911958 -0.806528 0 0 -1 0 0.5911958 0.806528 0 -1 0 0 1 0 0 0 0 -1 -0.7071068 0 0.7071068 0 0 1 0.7071068 0 -0.7071068 -1 0 0 1 0 0 0 -1 0 -0.5911958 0.806528 0 0 1 0 0.5911958 -0.806528 0 -1 0 0 0 0 -1 0 1 0 0 -0.806528 0.5911958 0 -1 0 0 0.806528 -0.5911958 0 0 1 0 0 1 0 1 0 0 -0.806528 -0.5911958 0 -1 0 0 0.806528 0.5911958 0 0 -1 1 0 0 0 1 0 -0.5911958 -0.806528 0 0 -1 0 0.5911958 0.806528 0 -1 0 0 0.9999999 0 0 0 0 -1 -0.7071068 0 0.7071068 0 0 1 0.7071068 0 -0.7071068 -0.9999999 0 0 1 0 0 0 -1 0 -0.5911958 0.806528 0 0 1 0 0.5911958 -0.806528 0 -1 0 0 0 0 -1 0 0.9999999 0 0 -0.8065281 0.5911958 0 -0.9999999 0 0 0.8065281 -0.5911958 0 0 1 0 0 1 0 0.9999999 0 0 -0.8065281 -0.5911958 0 -0.9999999 0 0 0.8065281 0.5911958 0 0 -1</float_array>
+          <technique_common>
+            <accessor source="#CityShape-tangents-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CityShape-binormals" name="CityShape-binormals">
+          <float_array id="CityShape-binormals-array" count="360">0 1 0 -1 0 0 0.8065282 -0.5911959 0 1 0 0 -0.8065282 0.5911959 0 0 -1 0 0 0 -1 -1 0 0 0.7071068 0 0.7071068 1 0 0 -0.7071068 0 -0.7071068 0 0 1 0 -1 0 -1 0 0 0.8065282 0.5911959 0 1 0 0 -0.8065282 -0.5911959 0 0 1 0 0 1 0 0 0 1 0 -0.5911958 -0.8065281 0 0 -1 0 0.5911958 0.8065281 0 -1 0 0 1 0 0 0 -1 0 -0.5911958 0.8065281 0 0 1 0 0.5911958 -0.8065281 0 -1 0 0 1 0 -1 0 0 0.8065282 -0.5911959 0 1 0 0 -0.8065282 0.5911959 0 0 -1 0 0 0 -1 -1 0 0 0.7071068 0 0.7071068 1 0 0 -0.7071068 0 -0.7071068 0 0 1 0 -1 0 -1 0 0 0.8065282 0.5911959 0 1 0 0 -0.8065282 -0.5911959 0 0 1 0 0 1 0 0 0 1 0 -0.5911959 -0.8065282 0 0 -1 0 0.5911959 0.8065282 0 -1 0 0 1 0 0 0 -1 0 -0.5911959 0.8065282 0 0 1 0 0.5911959 -0.8065282 0 -1 0 0 1 0 -1 0 0 0.8065281 -0.5911959 0 1 0 0 -0.8065281 0.5911959 0 0 -1 0 0 0 -1 -1 0 0 0.7071068 0 0.7071068 1 0 0 -0.7071068 0 -0.7071068 0 0 1 0 -1 0 -1 0 0 0.8065281 0.5911959 0 1 0 0 -0.8065281 -0.5911959 0 0 1 0 0 1 0 0 0 1 0 -0.5911959 -0.8065282 0 0 -1 0 0.5911959 0.8065282 0 -1 0 0 1 0 0 0 -1 0 -0.5911959 0.8065282 0 0 1 0 0.5911959 -0.8065282 0 -1 0 0 1 0 -1 0 0 0.8065281 -0.5911959 0 1 0 0 -0.8065281 0.5911959 0 0 -1 0 0 0 -1 -1 0 0 0.7071068 0 0.7071068 1 0 0 -0.7071068 0 -0.7071068 0 0 1 0 -1 0 -1 0 0 0.8065281 0.5911959 0 1 0 0 -0.8065281 -0.5911959 0 0 1 0 0 1 0 0 0 1 0 -0.5911958 -0.8065281 0 0 -1 0 0.5911958 0.8065281 0 -1 0 0 1 0 0 0 -1 0 -0.5911958 0.8065281 0 0 1 0 0.5911958 -0.8065281 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#CityShape-binormals-array" count="120" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CityShape-map1" name="CityShape-map1">
+          <float_array id="CityShape-map1-array" count="96">-0.9716069 -4.039821 1.971607 -4.039821 -0.9716069 -1.096607 1.971607 -1.096607 -0.9716069 1.846607 1.971607 1.846607 -0.9716069 4.789821 1.971607 4.789821 4.914822 -4.039821 4.914822 -1.096607 -3.914821 -4.039821 -3.914821 -1.096607 -0.9716069 -4.039821 1.971607 -4.039821 -0.9716069 -1.096607 1.971607 -1.096607 -0.9716069 1.846607 1.971607 1.846607 -0.9716069 4.789821 1.971607 4.789821 4.914822 -4.039821 4.914822 -1.096607 -3.914821 -4.039821 -3.914821 -1.096607 -0.9716069 -4.039821 1.971607 -4.039821 -0.9716069 -1.096607 1.971607 -1.096607 -0.9716069 1.846607 1.971607 1.846607 -0.9716069 4.789821 1.971607 4.789821 4.914822 -4.039821 4.914822 -1.096607 -3.914821 -4.039821 -3.914821 -1.096607 -0.9716069 -4.039821 1.971607 -4.039821 -0.9716069 -1.096607 1.971607 -1.096607 -0.9716069 1.846607 1.971607 1.846607 -0.9716069 4.789821 1.971607 4.789821 4.914822 -4.039821 4.914822 -1.096607 -3.914821 -4.039821 -3.914821 -1.096607</float_array>
+          <technique_common>
+            <accessor source="#CityShape-map1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="CityShape-vertices" name="CityShape-vertices">
+          <input semantic="POSITION" source="#CityShape-positions"/>
+        </vertices>
+        <triangles material="lambert2SG" count="40">
+          <input semantic="VERTEX" source="#CityShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#CityShape-normals" offset="1"/>
+          <input semantic="TANGENT" source="#CityShape-tangents" offset="1"/>
+          <input semantic="BINORMAL" source="#CityShape-binormals" offset="1"/>
+          <input semantic="TEXCOORD" source="#CityShape-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 2 2 3 2 1 4 1 3 5 3 2 6 2 3 7 3 4 8 4 4 9 4 3 10 3 5 11 5 4 12 4 5 13 5 6 14 6 6 15 6 5 16 5 7 17 7 1 18 1 7 19 8 3 20 3 3 21 3 7 22 8 5 23 9 6 24 10 0 25 0 4 26 11 4 27 11 0 28 0 2 29 2 8 30 12 9 31 13 10 32 14 10 33 14 9 34 13 11 35 15 10 36 14 11 37 15 12 38 16 12 39 16 11 40 15 13 41 17 12 42 16 13 43 17 14 44 18 14 45 18 13 46 17 15 47 19 9 48 13 15 49 20 11 50 15 11 51 15 15 52 20 13 53 21 14 54 22 8 55 12 12 56 23 12 57 23 8 58 12 10 59 14 16 60 24 17 61 25 18 62 26 18 63 26 17 64 25 19 65 27 18 66 26 19 67 27 20 68 28 20 69 28 19 70 27 21 71 29 20 72 28 21 73 29 22 74 30 22 75 30 21 76 29 23 77 31 17 78 25 23 79 32 19 80 27 19 81 27 23 82 32 21 83 33 22 84 34 16 85 24 20 86 35 20 87 35 16 88 24 18 89 26 24 90 36 25 91 37 26 92 38 26 93 38 25 94 37 27 95 39 26 96 38 27 97 39 28 98 40 28 99 40 27 100 39 29 101 41 28 102 40 29 103 41 30 104 42 30 105 42 29 106 41 31 107 43 25 108 37 31 109 44 27 110 39 27 111 39 31 112 44 29 113 45 30 114 46 24 115 36 28 116 47 28 117 47 24 118 36 26 119 38</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="OpenCOLLADAMaya">
+          <originalMayaNodeId>CityShape</originalMayaNodeId>
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="City">
+      <node id="City" name="City" type="NODE">
+        <translate sid="translate">0 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1 1 1</scale>
+        <instance_geometry url="#CityShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert2SG" target="#lambert2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+        <extra>
+          <technique profile="OpenCOLLADAMaya">
+            <originalMayaNodeId>City</originalMayaNodeId>
+          </technique>
+        </extra>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

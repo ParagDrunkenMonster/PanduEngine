@@ -1,0 +1,1725 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pandu">
+      <UniqueIdentifier>{a79a9709-8cfa-4530-b40d-00ea0399b376}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\PanduBulletPhysics">
+      <UniqueIdentifier>{6ced072e-d9fc-4b2d-b100-7855757e88f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Utils">
+      <UniqueIdentifier>{2f1eb826-4cf0-4d7a-b745-6a73997ee27f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Math">
+      <UniqueIdentifier>{2273804a-75e9-4213-af7a-754e959eee9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Graphics">
+      <UniqueIdentifier>{9e960173-9e9a-4d6f-b6d6-7f20380d4635}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Graphics\Shader">
+      <UniqueIdentifier>{33a810c6-5faa-482d-9fd2-65f156255260}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Graphics\Animation">
+      <UniqueIdentifier>{39bf01a8-df48-409c-88ad-6a6c59c9bc43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\GameComponents">
+      <UniqueIdentifier>{af1ba2f0-ca27-4ba5-81d0-d3c7787f1fe1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Components">
+      <UniqueIdentifier>{d5349a11-7c7b-42a8-8841-56e3dceca6e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet">
+      <UniqueIdentifier>{e2c89799-1178-4afe-851e-2f6ff9f95f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\vectormath">
+      <UniqueIdentifier>{469cfc74-62d8-4643-abc6-5cb9cd0bb282}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\vectormath\sse">
+      <UniqueIdentifier>{49a20f63-4ac9-4c6b-a2a8-5a2d398bf964}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\vectormath\scalar">
+      <UniqueIdentifier>{59423dcc-d6e4-4d18-8c55-de393fc189c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\LinearMath">
+      <UniqueIdentifier>{72bc0f58-36a4-4485-a7f9-2e879c9536db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletSoftBody">
+      <UniqueIdentifier>{dc429a26-1faa-478b-83d5-80e0fbcb66dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletDynamics">
+      <UniqueIdentifier>{6b1643a7-8136-4d12-8801-e272ae3ae413}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletDynamics\Character">
+      <UniqueIdentifier>{11b9ab6f-635a-4b49-b7a1-db6a9dcd0bff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletDynamics\Vehicle">
+      <UniqueIdentifier>{09f38a0a-96fd-4613-a758-41d0b7356581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletDynamics\ConstraintSolver">
+      <UniqueIdentifier>{9bbd713b-6fe4-437d-8f00-ab41e707ec83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletDynamics\Dynamics">
+      <UniqueIdentifier>{8023840c-7327-47c8-9584-92f6085e89cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision">
+      <UniqueIdentifier>{d0f2332e-082c-48ea-8f11-128e4b0adcbd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision\BroadphaseCollision">
+      <UniqueIdentifier>{b66dca14-8257-4066-9f9d-273a4c1c1e04}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision\NarrowPhaseCollision">
+      <UniqueIdentifier>{13724dfc-cb96-4102-be86-edbe92d4c988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision\CollisionDispatch">
+      <UniqueIdentifier>{4f602a2f-8536-4b56-8b5b-8b464bc719f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision\CollisionShapes">
+      <UniqueIdentifier>{bfe43fc8-7ea6-48a0-92e4-77066e94837f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Bullet\BulletCollision\Gimpact">
+      <UniqueIdentifier>{e5dbc1a3-1e12-4785-9278-181cbb07ffa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Application">
+      <UniqueIdentifier>{2389b135-8393-44db-b859-68fb062c4958}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Glew">
+      <UniqueIdentifier>{32636c47-a8a2-43ec-8ad1-133a89824c2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pandu\Debug">
+      <UniqueIdentifier>{5d46c157-8d7f-4e82-986f-1f5aaedf8c02}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="PanduBulletPhysics\PANDUActorEnterExitTrigger.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PanduBulletPhysics\PANDUCollisionDispatcher.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PanduBulletPhysics\PANDUDynamicsWorld.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PanduBulletPhysics\PANDUOnActorInsideTrigger.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PanduBulletPhysics\PANDUPhysics.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="PanduBulletPhysics\PANDUTrigger.cpp">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUAnimationBinary.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUBinaryDataFile.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUBitmapImage.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUFile.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUGeometryBinary.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDULogManager.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDULogOutputTargetOutputWindow.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUObjMeshLoader.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUSkeletonBinary.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUString.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUStringTokenizer.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\PANDUStringUtils.cpp">
+      <Filter>Pandu\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUMatrix22.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUMatrix33.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUMatrix44.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUQuaternion.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDURect.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUVector2.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUVector3.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\PANDUVector4.cpp">
+      <Filter>Pandu\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUBasicSceneManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUBone.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUCamera.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUColour.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUFrameBuffer.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUFrustrum.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUGraphicsRoot.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDULight.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDULightManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUMaterial.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUMaterialManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUMesh.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUMeshManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUNode.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUOverlay.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUOverlayFrustrum.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUOverlaySceneManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUOverlayScreen.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSceneManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSceneNode.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShadowMapCamera.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeleton.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeletonManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeletonMeshModifier.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSubMesh.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUTexture.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUTextureManager.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUVertexBuffer.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUViewport.cpp">
+      <Filter>Pandu\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUAutoShaderParameter.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUFragmentProgram.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderAttribute.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderEffect.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderManager.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderParameter.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderPass.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderProgram.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUShaderTechnique.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUVertexProgram.cpp">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUNodeAnimation.cpp">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeletalAnimation.cpp">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeletalAnimationBlender.cpp">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="Graphics\PANDUSkeletalAnimationController.cpp">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUActorManager.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUActorOrToken.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUCar.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUCharacter.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUControllerManager.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUNavMesh.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUPlayerCharacterController.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="GameComponents\PANDUSimpleStateMachine.cpp">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUDefaultInputSystem.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUEvent.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUInputManager.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUInputMethodKey.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUInputSystem.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDURigidBodyToNodeTransformer.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Components\PANDUTransformerManager.cpp">
+      <Filter>Pandu\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\LinearMath\btAlignedAllocator.cpp">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\LinearMath\btConvexHull.cpp">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\LinearMath\btGeometryUtil.cpp">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\LinearMath\btQuickprof.cpp">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\LinearMath\btSerializer.cpp">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btDefaultSoftBodySolver.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftBody.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftBodyHelpers.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Character\btKinematicCharacterController.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Vehicle\btRaycastVehicle.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Vehicle\btWheelInfo.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Dynamics\btContinuousDynamicsWorld.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Dynamics\btRigidBody.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletDynamics\Dynamics\Bullet-C-API.cpp">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btDbvt.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btDispatcher.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btCollisionObject.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btGhostObject.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btManifoldResult.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\btUnionFind.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btBox2dShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btBoxShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btCapsuleShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btCollisionShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btCompoundShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConcaveShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConeShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvex2dShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvexHullShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvexShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btCylinderShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btEmptyShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btShapeHull.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btSphereShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleCallback.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleMesh.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btContactProcessing.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btGImpactBvh.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btGImpactShape.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\btTriangleShapeEx.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\gim_box_set.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\gim_contact.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\gim_memory.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet\BulletCollision\Gimpact\gim_tri_collision.cpp">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClCompile>
+    <ClCompile Include="PANDUApplicationRoot.cpp">
+      <Filter>Pandu\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Glew\glew.c">
+      <Filter>Pandu\Glew</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\PANDUDebugScene.cpp">
+      <Filter>Pandu\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\PANDUGLDebugDrawer.cpp">
+      <Filter>Pandu\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\PANDUPhysicsDebugObject.cpp">
+      <Filter>Pandu\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\PANDUSkeletonDebugObject.cpp">
+      <Filter>Pandu\Debug</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="PanduBulletPhysics\PANDUActorEnterExitTrigger.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUBulletTypes.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUBulletUtils.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUClock.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUCollisionDispatcher.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUDynamicsWorld.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUOnActorInsideTrigger.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUPhysics.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="PanduBulletPhysics\PANDUTrigger.h">
+      <Filter>Pandu\PanduBulletPhysics</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUAnimationBinary.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUBinaryDataFile.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUBitmapImage.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUBulletPanduConversion.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUCharacterUtils.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUCoreDefines.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUFile.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUFlag.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUGeometryBinary.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUImage.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDULogManager.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDULogOutputTarget.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDULogOutputTargetOutputWindow.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUObjMeshLoader.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUSkeletonBinary.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUString.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUStringTokenizer.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\PANDUStringUtils.h">
+      <Filter>Pandu\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUAxisAlignedBox3.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUMathConstants.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUMathUtils.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUMatrix22.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUMatrix33.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUMatrix44.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUQuaternion.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDURect.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUVector2.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUVector3.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\PANDUVector4.h">
+      <Filter>Pandu\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUBasicSceneManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUBone.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUBuffer.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUCamera.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUColour.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUFactoryObjectRegister.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUFrameBuffer.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUFrameEvent.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUFrustrum.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUGLError.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUGlInclude.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUGraphicsRoot.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDULight.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDULightManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMaterial.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMaterialManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMesh.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMeshInstance.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMeshManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUMeshModifier.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUNode.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUOnRenderListener.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUOverlay.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUOverlayFrustrum.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUOverlaySceneManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUOverlayScreen.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDURenderable.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSceneManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSceneNode.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShadowMapCamera.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeleton.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletonInstance.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletonManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletonMeshModifier.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSubMesh.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUTexture.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUTextureManager.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUVertexBuffer.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUViewport.h">
+      <Filter>Pandu\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUAutoShaderParameter.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUFragmentProgram.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderAttribute.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderEffect.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderManager.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderParameter.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderPass.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderProgram.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUShaderTechnique.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUVertexProgram.h">
+      <Filter>Pandu\Graphics\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUAnimation.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUAnimationController.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUInterpolator.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUNodeAnimation.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletalAnimation.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletalAnimationBlender.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="Graphics\PANDUSkeletalAnimationController.h">
+      <Filter>Pandu\Graphics\Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUActor.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUActorManager.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUActorOrToken.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUCar.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUCarType.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUCharacter.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUController.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUControllerManager.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUNavMesh.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUPlayerCharacterController.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="GameComponents\PANDUSimpleStateMachine.h">
+      <Filter>Pandu\GameComponents</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUAnimation.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUCommand.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUDefaultInputSystem.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUEvent.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUFunctionExecuterCommand.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputBinding.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputManager.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputMethod.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputMethodAxis.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputMethodKey.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputMethodKeyListener.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUInputSystem.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDURigidBodyToNodeTransformer.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUTransformer.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Components\PANDUTransformerManager.h">
+      <Filter>Pandu\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\btBulletCollisionCommon.h">
+      <Filter>Pandu\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\btBulletDynamicsCommon.h">
+      <Filter>Pandu\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\Bullet-C-Api.h">
+      <Filter>Pandu\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\vmInclude.h">
+      <Filter>Pandu\Bullet\vectormath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\boolInVec.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\floatInVec.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\mat_aos.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\quat_aos.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\vec_aos.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\vecidx_aos.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\sse\vectormath_aos.h">
+      <Filter>Pandu\Bullet\vectormath\sse</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\boolInVec.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\floatInVec.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\mat_aos.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\quat_aos.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\vec_aos.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\vectormath\scalar\vectormath_aos.h">
+      <Filter>Pandu\Bullet\vectormath\scalar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btAabbUtil2.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btAlignedAllocator.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btAlignedObjectArray.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btConvexHull.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btDefaultMotionState.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btGeometryUtil.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btHashMap.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btIDebugDraw.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btList.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btMatrix3x3.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btMinMax.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btMotionState.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btPoolAllocator.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btQuadWord.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btQuaternion.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btQuickprof.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btRandom.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btScalar.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btSerializer.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btStackAlloc.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btTransform.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btTransformUtil.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\LinearMath\btVector3.h">
+      <Filter>Pandu\Bullet\LinearMath</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btDefaultSoftBodySolver.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBody.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodyConcaveCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodyHelpers.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodyInternals.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodyRigidBodyCollisionConfiguration.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodySolvers.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftBodySolverVertexBuffer.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftRigidCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftRigidDynamicsWorld.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSoftSoftCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletSoftBody\btSparseSDF.h">
+      <Filter>Pandu\Bullet\BulletSoftBody</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Character\btCharacterControllerInterface.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Character\btKinematicCharacterController.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Character</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Vehicle\btRaycastVehicle.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Vehicle\btVehicleRaycaster.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Vehicle\btWheelInfo.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Vehicle</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btConeTwistConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btConstraintSolver.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btContactConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btContactSolverInfo.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btGeneric6DofSpringConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btHinge2Constraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btHingeConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btJacobianEntry.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btPoint2PointConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btSequentialImpulseConstraintSolver.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btSliderConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btSolve2LinearConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btSolverBody.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btSolverConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btTypedConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\ConstraintSolver\btUniversalConstraint.h">
+      <Filter>Pandu\Bullet\BulletDynamics\ConstraintSolver</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btActionInterface.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btContinuousDynamicsWorld.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btDiscreteDynamicsWorld.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btDynamicsWorld.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btRigidBody.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletDynamics\Dynamics\btSimpleDynamicsWorld.h">
+      <Filter>Pandu\Bullet\BulletDynamics\Dynamics</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btAxisSweep3.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btBroadphaseInterface.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btBroadphaseProxy.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btDbvt.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btDbvtBroadphase.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btDispatcher.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btMultiSapBroadphase.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCache.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btOverlappingPairCallback.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btQuantizedBvh.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\BroadphaseCollision\btSimpleBroadphase.h">
+      <Filter>Pandu\Bullet\BulletCollision\BroadphaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btContinuousConvexCollision.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btConvexCast.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btConvexPenetrationDepthSolver.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btDiscreteCollisionDetectorInterface.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkConvexCast.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpa2.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkEpaPenetrationDepthSolver.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btGjkPairDetector.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btManifoldPoint.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btMinkowskiPenetrationDepthSolver.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btPersistentManifold.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btPointCollector.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btRaycastCallback.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btSimplexSolverInterface.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btSubSimplexConvexCast.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\NarrowPhaseCollision\btVoronoiSimplexSolver.h">
+      <Filter>Pandu\Bullet\BulletCollision\NarrowPhaseCollision</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btActivatingCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btBox2dBox2dCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btBoxBoxCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btBoxBoxDetector.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCollisionConfiguration.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCollisionCreateFunc.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCollisionDispatcher.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCollisionObject.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCollisionWorld.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btCompoundCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btConvex2dConvex2dAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btConvexConcaveCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btConvexConvexAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btConvexPlaneCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btDefaultCollisionConfiguration.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btEmptyCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btGhostObject.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btInternalEdgeUtility.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btManifoldResult.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btSimulationIslandManager.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btSphereBoxCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btSphereSphereCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btSphereTriangleCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\btUnionFind.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionDispatch\SphereTriangleDetector.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btBox2dShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btBoxShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btBvhTriangleMeshShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btCapsuleShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btCollisionMargin.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btCollisionShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btCompoundShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConcaveShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConeShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvex2dShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvexHullShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvexInternalShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvexPointCloudShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvexShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btConvexTriangleMeshShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btCylinderShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btEmptyShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btHeightfieldTerrainShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btMaterial.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btMinkowskiSumShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btMultimaterialTriangleMeshShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btMultiSphereShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btOptimizedBvh.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btPolyhedralConvexShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btScaledBvhTriangleMeshShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btShapeHull.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btSphereShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btStaticPlaneShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btStridingMeshInterface.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTetrahedronShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleBuffer.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleCallback.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexArray.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleIndexVertexMaterialArray.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleInfoMap.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleMesh.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleMeshShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btTriangleShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\CollisionShapes\btUniformScalingShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\CollisionShapes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btBoxCollision.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btClipPolygon.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btContactProcessing.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGenericPoolAllocator.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGeometryOperations.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGImpactBvh.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGImpactCollisionAlgorithm.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGImpactMassUtil.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGImpactQuantizedBvh.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btGImpactShape.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btQuantization.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\btTriangleShapeEx.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_array.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_basic_geometry_operations.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_bitset.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_box_collision.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_box_set.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_clip_polygon.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_contact.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_geom_types.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_geometry.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_hash_table.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_linear_math.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_math.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_memory.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_radixsort.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet\BulletCollision\Gimpact\gim_tri_collision.h">
+      <Filter>Pandu\Bullet\BulletCollision\Gimpact</Filter>
+    </ClInclude>
+    <ClInclude Include="PANDUApplication.h">
+      <Filter>Pandu\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="PANDUApplicationRoot.h">
+      <Filter>Pandu\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Glew\glew.h">
+      <Filter>Pandu\Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="Glew\glxew.h">
+      <Filter>Pandu\Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="Glew\wglew.h">
+      <Filter>Pandu\Glew</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUDebugDrawer.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUDebugObject.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUDebugScene.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUGLDebugDrawer.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUPhysicsDebugObject.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\PANDUSkeletonDebugObject.h">
+      <Filter>Pandu\Debug</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
