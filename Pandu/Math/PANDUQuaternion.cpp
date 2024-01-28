@@ -1,5 +1,6 @@
 #include "PANDUQuaternion.h"
 #include "PANDUMatrix44.h"
+#include <cmath>
 
 namespace Pandu
 {
@@ -144,7 +145,7 @@ namespace Pandu
 			realEnd = _end;
 		}
 
-		if ( abs(startDotEnd) < 1 - (std::numeric_limits<float>::epsilon() ) )
+		if ( (float)abs(startDotEnd) < 1.0f - (std::numeric_limits<float>::epsilon() ) )
 		{
 			// Standard case (slerp)
 			float fSin = sqrt(1.0f - (startDotEnd * startDotEnd));

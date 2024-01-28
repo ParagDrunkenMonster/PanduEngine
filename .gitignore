@@ -4,3 +4,6 @@
 /**/*.html
 /**/*.htm
 /boost_1_65_1/boost_1_65_1/**/doc/
+/.vs
+/Game/*.user
+/Pandu/*.user
